@@ -1,0 +1,17 @@
+{
+    "name": "php/app",
+    "autoload": {
+        "psr-4": {
+            "Php\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesse Klok",
+            "email": "606876@edu.rocmn.nl"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
